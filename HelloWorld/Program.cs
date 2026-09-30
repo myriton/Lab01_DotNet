@@ -111,3 +111,51 @@ Console.WriteLine($"Статус: {status}");
 Console.WriteLine($"Лет до 30: {30 - age}");
 Console.WriteLine("Нажмите Enter для выхода...");
 Console.ReadLine();
+
+
+//1
+string favoriteAnime = "hanterXhanter";
+int favoriteNumber = 14;
+double pi = 3.14159;
+char favoriteLetter = 'C';
+Console.WriteLine($"Любимое аниме: {favoriteAnime}");
+Console.WriteLine($"Любимая цифра: {favoriteNumber}");
+Console.WriteLine($"Число пи: {pi}");
+Console.WriteLine($"Любимая буква: {favoriteLetter}");
+
+//2
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
+
+//3
+Console.WriteLine("\"Hello There\"");
+
+//4
+Console.Write("Введите стоимость монитора: ");
+int monitor = int.Parse(Console.ReadLine());
+Console.Write("Введите стоимость системного блока: ");
+int systemUnit = int.Parse(Console.ReadLine());
+Console.Write("Введите стоимость клавиатуры: ");
+int keyboard = int.Parse(Console.ReadLine());
+Console.Write("Введите стоимость мыши: ");
+int mouse = int.Parse(Console.ReadLine());
+int onePC = monitor + systemUnit + keyboard + mouse;
+int total = onePC * 3;
+Console.WriteLine($"Стоимость трёх компьютеров: {total}");
+
+//5
+Console.Write("Введите число a: ");
+int a = int.Parse(Console.ReadLine());
+Console.Write("Введите число b: ");
+int b = int.Parse(Console.ReadLine());
+double result = 3 * Math.Pow(a + b, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41;
+Console.WriteLine($"Значение функции: {result}");
+
+//6
+Console.Write("Введите температуру в градусах Цельсия: ");
+double celsius = double.Parse(Console.ReadLine());
+double fahrenheit = celsius * 1.8 + 32;
+Console.WriteLine($"Температура: {fahrenheit}°F");
+
